@@ -1,0 +1,13 @@
+{
+    "identificador": "CB",
+    "fec_emis": "2021-12-02",
+    "fec_gener_baja": "2021-12-02",
+    "cod_tip_escenario": "03",
+    "txt_serie": "FJ01",
+    "cod_iden_cb": "C",
+    "cod_cliente_emis": 1,
+    "num_ruc_emis": 20565282965,
+    "txt_correlativo": "00000001",
+    "cod_tip_cpe": "01",
+    "txt_descr_motivo_baja": "prueba del sistema"
+}

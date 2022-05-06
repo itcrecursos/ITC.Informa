@@ -1,0 +1,13 @@
+{
+	"identificador": "CB",
+	"fec_emis": "2022-01-26",
+	"fec_gener_baja": "2022-01-26",
+	"cod_tip_escenario": "03",
+	"txt_serie": "FF11",
+	"cod_iden_cb": "C",
+	"cod_cliente_emis": 1,
+	"num_ruc_emis": 20565282965,
+	"txt_correlativo": "00007545",
+	"cod_tip_cpe": "01",
+	"txt_descr_motivo_baja": "PRUEBA DE SISTEMA"
+}

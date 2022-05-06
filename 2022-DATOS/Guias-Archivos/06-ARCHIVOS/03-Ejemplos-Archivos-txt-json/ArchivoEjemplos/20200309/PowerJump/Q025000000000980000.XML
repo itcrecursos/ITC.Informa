@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<XMLData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Product Name='SIIGO' Version='1'/>
+<Info>B-025-98</Info>
+<CompanyData>
+<PersonType>0</PersonType>
+<Name>POWER JUMP S.A.C.</Name>
+<Nit>20492423107</Nit>
+<Phone>4277033</Phone>
+<Address>CAL. BRONSINO 614 URB. SAN BORJA - SAN BORJA - LIMA - LIMA</Address>
+<City>0000000000</City>
+<EMail>eloycer@hotmail.com</EMail>
+<Contact>ELOY CALIZAYA</Contact>
+</CompanyData>
+<Customer>
+<Code>42289332</Code>
+<CheckDigit>0</CheckDigit>
+<BranchOffice>000</BranchOffice>
+<IsSocialReason>TRUE</IsSocialReason>
+<FirstName>LUCI PUCHURI SULCARAYME</FirstName>
+<Address>LIMA</Address>
+<Phone></Phone>
+<EMail>FTMARCO@OUTLOOK.COM</EMail>
+<Collector>20511401764</Collector>
+</Customer>
+<Contact>
+<ContactName>LUCI PUCHURI SULCARAYME</ContactName>
+<Email>FTMARCO@OUTLOOK.COM</Email>
+</Contact>
+<Request>
+<WithApproval>FALSE</WithApproval>
+</Request>
+<Billing>
+<Global>
+<D K='0001'>POWER JUMP S.A.C.</D>
+<D K='0003'>20492423107</D>
+<D K='0004'>1</D>
+<D K='0005'>CAL. BRONSINO 614 URB. SAN BORJA - SAN BORJA - LIMA - LIMA</D>
+<D K='0006'>B.E. POWER JUMP</D>
+<D K='0008'>98</D>
+<D K='0009'>Q</D>
+<D K='0010'>03</D>
+<D K='0011'>4277033</D>
+<D K='0012'>4277604</D>
+<D K='0013'> Gran contribuyente</D>
+<D K='0017'>LUCI PUCHURI SULCARAYME</D>
+<D K='0018'>42289332</D>
+<D K='0022'>20210305</D>
+<D K='0023'>0020</D>
+<D K='0025'>LIMA</D>
+<D K='0027'>0035</D>
+<D K='0028'>LIMA</D>
+<D K='0029'>20210305</D>
+<D K='0030'>MISAEL VARGAS DAVILA</D>
+<D K='0053'>207.10</D>
+<D K='0060'>37.28</D>
+<D K='0067'>244.38</D>
+<D K='0068'>DOSCIENTOS CUARENTA Y CUATRO CON 38/100 SOLES</D>
+<D K='0082'>IGV</D>
+<D K='0086'>Total Bruto</D>
+<D K='0087'>Neto a Pagar</D>
+<D K='0402'>PERU</D>
+<D K='0403'>0</D>
+<D K='0408'>207.10</D>
+<D K='0410'>SOLES</D>
+<D K='0416'>18.00</D>
+<D K='0452'>20210305</D>
+<D K='0453'>0035</D>
+<D K='0454'>0020</D>
+<D K='0465'>244.38</D>
+<D K='0482'>03</D>
+<D K='0483'>05</D>
+<D K='0484'>2021</D>
+<D K='0485'>03</D>
+<D K='0486'>05</D>
+<D K='0487'>2021</D>
+<D K='0494'>025</D>
+<D K='0497'>B.E - P.JUMP</D>
+<D K='0498'>207.10</D>
+<D K='0499'>5.00</D>
+<D K='0501'>DOLARES AMERICANOS</D>
+<D K='0502'> Gran contribuyente</D>
+<D K='0505'>LUCI PUCHURI SULCARAYME</D>
+<D K='0507'>20210305</D>
+<D K='0514'>LUCI PUCHURI SULCARAYMExxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</D>
+<D K='0518'>S/</D>
+<D K='0521'>244.38</D>
+<D K='0522'>SHOWROOM POWER JUMP</D>
+<D K='0526'>0</D>
+<D K='0556'>SHOWROOM POWER JUMP</D>
+<D K='0559'>DOSCIENTOS SIETE CON 10/100 SOLES</D>
+<D K='0563'>207.10</D>
+<D K='0564'>207.10</D>
+<D K='0565'>0.00</D>
+<D K='0566'>207.10</D>
+<D K='0579'>0001</D>
+<D K='0580'>MI BALON S.A.C</D>
+<D K='0583'>244.38</D>
+<D K='0586'>207.10</D>
+<D K='0592'>244.38</D>
+<D K='0600'>0.00</D>
+<D K='0601'>0.00</D>
+<D K='0602'>207.10</D>
+<D K='0612'>244.38</D>
+<D K='0628'>207.10</D>
+<D K='0629'>207.10</D>
+<D K='0630'>244.38</D>
+<D K='0631'>207.10</D>
+<D K='0632'>207.10</D>
+<D K='0633'>207.10</D>
+<D K='0643'>2.18</D>
+<D K='0649'>49.29</D>
+<D K='0822'>FTMARCO@OUTLOOK.COM</D>
+<D K='0836'>CONTADO SOLES POWER JUMP</D>
+<D K='1019'>pjfactura@gmail.com</D>
+<D K='1092'>PERU</D>
+<D K='1093'>LIMA</D>
+<D K='1099'>207.10</D>
+<D K='1107'>00</D>
+<D K='1108'>244.38</D>
+<D K='1109'>DOSCIENTOS CUARENTA Y CUATRO CON 38/100 SOLES</D>
+<D K='1114'>3.62000</D>
+<D K='1125'>B001</D>
+<D K='1126'>1</D>
+<D K='1130'>0.00</D>
+<D K='1131'>PEN</D>
+<D K='1137'>0101</D>
+<D K='1148'>6</D>
+<D K='1152'>POWER JUMP</D>
+<D K='1153'>LUCI</D>
+<D K='1184'> </D>
+<D K='1189'>PE</D>
+<D K='1190'>PE</D>
+<D K='1191'>2</D>
+<D K='1196'>15</D>
+<D K='1197'>52</D>
+<D K='1198'>30</D>
+<D K='1199'>MISAEL VARGAS</D>
+<D K='1200'>207.11</D>
+<D K='1205'>1</D>
+<D K='1210'>POWER JUMP S.A.C.</D>
+<D K='1211'>00</D>
+<D K='1212'>000</D>
+<D K='1232'>LIMA</D>
+<D K='1233'>00</D>
+<D K='1234'>000</D>
+<D K='1236'>3</D>
+<D K='1249'>57.21</D>
+<D K='1335'>207.10</D>
+<D K='1336'>37.28</D>
+<D K='1337'>244.38</D>
+<D K='1339'>207.10</D>
+<D K='1342'>207.10</D>
+<D K='1351'>20000.00</D>
+<D K='1352'>FTMARCO@OUTLOOK.COM</D>
+<D K='1363'>244.38</D>
+<D K='1364'>0.00</D>
+<D K='1365'>0.00</D>
+<D K='1368'>244.38</D>
+</Global>
+<Detail>
+<R>
+<D K='0031'>0020203000086</D>
+<D K='0032'>0020</D>
+<D K='0033'>P/FUTBOL MIBALON CLUB PVC # 4 SURT.</D>
+<D K='0034'>2032605403</D>
+<D K='0035'>UND</D>
+<D K='0036'>18.00</D>
+<D K='0037'>3.00</D>
+<D K='0038'>3.00000</D>
+<D K='0039'>41.18</D>
+<D K='0040'>41.18644</D>
+<D K='0041'>123.56</D>
+<D K='0044'>00000000003</D>
+<D K='0132'>7001010000</D>
+<D K='0143'>0020</D>
+<D K='0459'>3.62</D>
+<D K='0460'>000086</D>
+<D K='0463'>48.60</D>
+<D K='0469'>00000000042289332</D>
+<D K='0470'>0.01</D>
+<D K='0475'>C</D>
+<D K='0476'>123.56</D>
+<D K='0478'>0035</D>
+<D K='0490'>001</D>
+<D K='0493'>01</D>
+<D K='0495'>MERCADERIAS</D>
+<D K='0496'>LUCI PUCHURI SULCARAYME</D>
+<D K='0500'>01</D>
+<D K='0509'>123.56</D>
+<D K='0510'>123.56</D>
+<D K='0512'>18.00</D>
+<D K='0513'>MI BALON</D>
+<D K='0523'>SHOWROOM POWER JUMP</D>
+<D K='0527'>22.24</D>
+<D K='0529'>7.41</D>
+<D K='0530'>145.80</D>
+<D K='0552'>SHOWROOM POWER JUMP</D>
+<D K='0553'>SHOWROOM POWER JUMP</D>
+<D K='0554'>7753420000657</D>
+<D K='0557'>18.00</D>
+<D K='0558'>145.80</D>
+<D K='0578'>41.18</D>
+<D K='0581'>123.56</D>
+<D K='0585'>145.80</D>
+<D K='0588'>PELOTAS</D>
+<D K='0636'>0.41</D>
+<D K='0637'>1.24</D>
+<D K='0640'>48.60</D>
+<D K='0641'>145.79</D>
+<D K='0646'>48.60</D>
+<D K='0647'>145.80</D>
+<D K='0666'>48.60</D>
+<D K='0671'>48.59644</D>
+<D K='0673'>48.60</D>
+<D K='0678'>00001</D>
+<D K='0828'>22.24</D>
+<D K='1105'>S/</D>
+<D K='1117'>P/FUTBOL MIBALON CLUB PVC # 4 SURT.</D>
+<D K='1133'>10</D>
+<D K='1145'>123.56</D>
+<D K='1150'>NIU</D>
+<D K='1201'>  0.000</D>
+<D K='1208'>0</D>
+<D K='1252'>13101652</D>
+<D K='1257'>11.37</D>
+<D K='1258'>34.13</D>
+<D K='1261'>6.14</D>
+<D K='1345'>123.56</D>
+<D K='1347'>123.56</D>
+<D K='1348'>123.56</D>
+<D K='1349'>22.24</D>
+<D K='1361'>145.80</D>
+</R>
+<R>
+<D K='0031'>0020203000089</D>
+<D K='0032'>0020</D>
+<D K='0033'>P/F. MI BALON PVC # 5 32P. LAM. MODELOS</D>
+<D K='0034'>2032605502</D>
+<D K='0035'>UND</D>
+<D K='0036'>18.00</D>
+<D K='0037'>2.00</D>
+<D K='0038'>2.00000</D>
+<D K='0039'>41.77</D>
+<D K='0040'>41.77119</D>
+<D K='0041'>83.54</D>
+<D K='0044'>00000000002</D>
+<D K='0132'>7001010000</D>
+<D K='0143'>0020</D>
+<D K='0459'>3.62</D>
+<D K='0460'>000089</D>
+<D K='0463'>49.29</D>
+<D K='0469'>00000000042289332</D>
+<D K='0470'>0.01</D>
+<D K='0475'>C</D>
+<D K='0476'>83.54</D>
+<D K='0478'>0035</D>
+<D K='0490'>002</D>
+<D K='0493'>01</D>
+<D K='0495'>MERCADERIAS</D>
+<D K='0496'>LUCI PUCHURI SULCARAYME</D>
+<D K='0500'>01</D>
+<D K='0509'>83.54</D>
+<D K='0510'>83.54</D>
+<D K='0512'>18.00</D>
+<D K='0513'>MI BALON</D>
+<D K='0523'>SHOWROOM POWER JUMP</D>
+<D K='0527'>15.04</D>
+<D K='0529'>7.52</D>
+<D K='0530'>98.58</D>
+<D K='0552'>SHOWROOM POWER JUMP</D>
+<D K='0553'>SHOWROOM POWER JUMP</D>
+<D K='0554'>7753420000671</D>
+<D K='0557'>18.00</D>
+<D K='0558'>98.58</D>
+<D K='0578'>41.77</D>
+<D K='0581'>83.54</D>
+<D K='0585'>98.58</D>
+<D K='0588'>PELOTAS</D>
+<D K='0636'>0.47</D>
+<D K='0637'>0.94</D>
+<D K='0640'>49.29</D>
+<D K='0641'>98.58</D>
+<D K='0646'>49.29</D>
+<D K='0647'>98.58</D>
+<D K='0666'>49.29</D>
+<D K='0671'>49.29119</D>
+<D K='0673'>49.29</D>
+<D K='0678'>00001</D>
+<D K='0828'>15.04</D>
+<D K='1105'>S/</D>
+<D K='1117'>P/F. MI BALON PVC # 5 32P. LAM. MODELOS</D>
+<D K='1133'>10</D>
+<D K='1145'>83.54</D>
+<D K='1150'>NIU</D>
+<D K='1201'>  0.000</D>
+<D K='1208'>0</D>
+<D K='1252'>13101668</D>
+<D K='1257'>11.53</D>
+<D K='1258'>23.08</D>
+<D K='1261'>4.15</D>
+<D K='1345'>83.54</D>
+<D K='1347'>83.54</D>
+<D K='1348'>83.54</D>
+<D K='1349'>15.04</D>
+<D K='1361'>98.58</D>
+</R>
+</Detail>
+<Payments>
+<R>
+<D K='0045'>0036</D>
+<D K='0046'>CONTADO SOLES POWER JUMP</D>
+<D K='0047'>Q</D>
+<D K='0048'>025</D>
+<D K='0049'>98</D>
+<D K='0050'>001</D>
+<D K='0480'>98</D>
+<D K='1186'>10</D>
+<D K='1367'>01</D>
+</R>
+</Payments>
+</Billing>
+</XMLData>

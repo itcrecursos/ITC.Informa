@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<XMLData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Product Name='SIIGO' Version='1'/>
+<Info>C-003-5</Info>
+<CompanyData>
+<PersonType>0</PersonType>
+<Name>MI BALON S.A.C. 2</Name>
+<Nit>20511401764</Nit>
+<Phone>4277033</Phone>
+<Address>JR CUZCO 648 - LIMA</Address>
+<City>0000000000</City>
+<EMail>@siigo.com</EMail>
+<Contact>@siigo.com</Contact>
+</CompanyData>
+<Customer>
+<Code>09993780</Code>
+<CheckDigit>0</CheckDigit>
+<BranchOffice>000</BranchOffice>
+<IsSocialReason>FALSE</IsSocialReason>
+<FirstName>JOSE SANTIAGO</FirstName>
+<LastName>PEREZ QUIJANO</LastName>
+<Address>LIMA LIMA</Address>
+<Phone></Phone>
+<EMail>FTMARCO@OUTLOOK.COM</EMail>
+<Collector>20511401764</Collector>
+</Customer>
+<Contact>
+<ContactName>JOSE SANTIAGO PEREZ QUIJANO</ContactName>
+<Email>FTMARCO@OUTLOOK.COM</Email>
+</Contact>
+<Request>
+<WithApproval>FALSE</WithApproval>
+</Request>
+<Billing>
+<Global>
+<D K='0001'>MI BALON S.A.C. 2</D>
+<D K='0003'>20511401764</D>
+<D K='0004'>1</D>
+<D K='0005'>JR CUZCO 648 - LIMA</D>
+<D K='0006'>NOTA DE CREDITO 2060 BOLETA</D>
+<D K='0008'>5</D>
+<D K='0009'>C</D>
+<D K='0010'>07</D>
+<D K='0011'>4277033</D>
+<D K='0013'> Gran contribuyente</D>
+<D K='0017'>JOSE SANTIAGO PEREZ QUIJANO</D>
+<D K='0018'>09993780</D>
+<D K='0022'>20201118</D>
+<D K='0023'>4002</D>
+<D K='0025'>LIMALIMA</D>
+<D K='0027'>0076</D>
+<D K='0028'>LIMA</D>
+<D K='0029'>20201118</D>
+<D K='0030'>CHRISTIAN LAZARO</D>
+<D K='0053'>127.12</D>
+<D K='0060'>22.88</D>
+<D K='0067'>150.00</D>
+<D K='0068'>CIENTO CINCUENTA CON 00/100 SOLES</D>
+<D K='0082'>IGV</D>
+<D K='0086'>Total Bruto</D>
+<D K='0087'>Neto a Pagar</D>
+<D K='0240'> LIMA</D>
+<D K='0402'>PERU</D>
+<D K='0403'>0</D>
+<D K='0404'>PEREZ</D>
+<D K='0405'>QUIJANO</D>
+<D K='0406'>JOSE</D>
+<D K='0407'>SANTIAGO</D>
+<D K='0408'>127.12</D>
+<D K='0410'>SOLES</D>
+<D K='0416'>0.00</D>
+<D K='0451'>00000003486</D>
+<D K='0452'>20201118</D>
+<D K='0453'>0076</D>
+<D K='0454'>4002</D>
+<D K='0465'>150.00</D>
+<D K='0482'>11</D>
+<D K='0483'>18</D>
+<D K='0484'>2020</D>
+<D K='0485'>11</D>
+<D K='0486'>18</D>
+<D K='0487'>2020</D>
+<D K='0494'>003</D>
+<D K='0497'>N/CRED B2060</D>
+<D K='0498'>127.12</D>
+<D K='0499'>3.00</D>
+<D K='0501'>DOLARES AMERICANOS</D>
+<D K='0502'> Gran contribuyente</D>
+<D K='0505'>JOSE SANTIAGO PEREZ QUIJANO</D>
+<D K='0506'> LIMA</D>
+<D K='0507'>20201118</D>
+<D K='0508'>20202020200</D>
+<D K='0514'>JOSE SANTIAGO PEREZ QUIJANOxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</D>
+<D K='0518'>S/</D>
+<D K='0521'>150.00</D>
+<D K='0522'>TDA 2060</D>
+<D K='0526'>0</D>
+<D K='0556'>TDA 2060</D>
+<D K='0559'>CIENTO VEINTISIETE CON 12/100 SOLES</D>
+<D K='0563'>127.12</D>
+<D K='0564'>127.12</D>
+<D K='0565'>0.00</D>
+<D K='0566'>127.12</D>
+<D K='0579'>0001</D>
+<D K='0580'>MI BALON S.A.C</D>
+<D K='0583'>150.00</D>
+<D K='0586'>127.12</D>
+<D K='0592'>150.00</D>
+<D K='0600'>0.00</D>
+<D K='0601'>0.00</D>
+<D K='0602'>127.12</D>
+<D K='0612'>150.00</D>
+<D K='0628'>127.12</D>
+<D K='0629'>127.12</D>
+<D K='0630'>150.00</D>
+<D K='0631'>127.12</D>
+<D K='0632'>127.12</D>
+<D K='0633'>127.12</D>
+<D K='0643'>1.24</D>
+<D K='0649'>50.00</D>
+<D K='0664'>020</D>
+<D K='0665'>00000003486</D>
+<D K='0822'>FTMARCO@OUTLOOK.COM</D>
+<D K='0836'>CONTADO-2060</D>
+<D K='1092'>PERU</D>
+<D K='1093'>LIMA</D>
+<D K='1099'>127.12</D>
+<D K='1107'>00</D>
+<D K='1108'>150.00</D>
+<D K='1109'>CIENTO CINCUENTA CON 00/100 SOLES</D>
+<D K='1114'>3.61000</D>
+<D K='1125'>BC03</D>
+<D K='1126'>1</D>
+<D K='1130'>0.00</D>
+<D K='1131'>PEN</D>
+<D K='1135'>01</D>
+<D K='1137'>0101</D>
+<D K='1148'>6</D>
+<D K='1151'>03</D>
+<D K='1152'>MI BALON SAC</D>
+<D K='1153'>JOSE SANTIAGO</D>
+<D K='1184'> </D>
+<D K='1189'>PE</D>
+<D K='1190'>PE</D>
+<D K='1191'>2</D>
+<D K='1196'>12</D>
+<D K='1197'>55</D>
+<D K='1198'>27</D>
+<D K='1199'>PERICO</D>
+<D K='1200'>0.00</D>
+<D K='1205'>1</D>
+<D K='1210'>MI BALON S.A.C</D>
+<D K='1211'>00</D>
+<D K='1212'>000</D>
+<D K='1232'>LIMA</D>
+<D K='1233'>00</D>
+<D K='1234'>000</D>
+<D K='1236'>3</D>
+<D K='1239'>Anulación de la operación</D>
+<D K='1247'>6.34</D>
+<D K='1249'>35.21</D>
+<D K='1250'>41.55</D>
+<D K='1335'>127.12</D>
+<D K='1336'>22.88</D>
+<D K='1337'>150.00</D>
+<D K='1339'>127.12</D>
+<D K='1342'>127.12</D>
+<D K='1351'>2000.00</D>
+<D K='1352'>FTMARCO@OUTLOOK.COM</D>
+</Global>
+<Detail>
+<R>
+<D K='0031'>0020203001121</D>
+<D K='0032'>0002</D>
+<D K='0033'>P/F MI BALON PVC Nº 4 TRAINING SERIES</D>
+<D K='0034'>2032605404</D>
+<D K='0035'>UND</D>
+<D K='0036'>18.00</D>
+<D K='0037'>2.00</D>
+<D K='0038'>2.00000</D>
+<D K='0039'>42.37</D>
+<D K='0040'>42.37288</D>
+<D K='0041'>84.75</D>
+<D K='0044'>00000000002</D>
+<D K='0132'>7009010000</D>
+<D K='0143'>4002</D>
+<D K='0459'>3.61</D>
+<D K='0460'>001121</D>
+<D K='0463'>50.00</D>
+<D K='0469'>00000000009993780</D>
+<D K='0470'>0.04</D>
+<D K='0471'>Q</D>
+<D K='0472'>00003486</D>
+<D K='0473'>001</D>
+<D K='0475'>D</D>
+<D K='0476'>84.75</D>
+<D K='0478'>0076</D>
+<D K='0490'>001</D>
+<D K='0493'>09</D>
+<D K='0495'>DEVOLUCION SOBRE VENTAS</D>
+<D K='0496'>JOSE SANTIAGO PEREZ QUIJANO</D>
+<D K='0500'>01</D>
+<D K='0509'>84.75</D>
+<D K='0510'>84.75</D>
+<D K='0512'>18.00</D>
+<D K='0513'>MI BALON</D>
+<D K='0523'>TIENDA 2060</D>
+<D K='0527'>15.25</D>
+<D K='0529'>7.63</D>
+<D K='0530'>100.00</D>
+<D K='0552'>TIENDA 2060</D>
+<D K='0553'>TDA 2060</D>
+<D K='0554'>7753420000664</D>
+<D K='0557'>18.00</D>
+<D K='0558'>100.00</D>
+<D K='0577'>17.99</D>
+<D K='0578'>42.37</D>
+<D K='0581'>84.75</D>
+<D K='0585'>100.00</D>
+<D K='0588'>PELOTAS</D>
+<D K='0636'>0.41</D>
+<D K='0637'>0.83</D>
+<D K='0640'>50.00</D>
+<D K='0641'>100.01</D>
+<D K='0646'>50.00</D>
+<D K='0647'>100.00</D>
+<D K='0666'>50.00</D>
+<D K='0671'>50.00288</D>
+<D K='0673'>50.00</D>
+<D K='0678'>00001</D>
+<D K='0828'>15.25</D>
+<D K='1105'>S/</D>
+<D K='1117'>P/F MI BALON PVC Nº 4 TRAINING SERIES</D>
+<D K='1133'>10</D>
+<D K='1145'>84.75</D>
+<D K='1150'>NIU</D>
+<D K='1201'>  0.000</D>
+<D K='1208'>0</D>
+<D K='1252'>13101663</D>
+<D K='1257'>11.73</D>
+<D K='1258'>23.48</D>
+<D K='1261'>4.22</D>
+<D K='1345'>84.75</D>
+<D K='1347'>84.75</D>
+<D K='1348'>84.75</D>
+<D K='1349'>15.25</D>
+<D K='1361'>100.00</D>
+</R>
+<R>
+<D K='0031'>0020203000086</D>
+<D K='0032'>0002</D>
+<D K='0033'>P/FUTBOL MIBALON CLUB PVC # 4 SURT.</D>
+<D K='0034'>2032605403</D>
+<D K='0035'>UND</D>
+<D K='0036'>18.00</D>
+<D K='0037'>1.00</D>
+<D K='0038'>1.00000</D>
+<D K='0039'>42.37</D>
+<D K='0040'>42.37288</D>
+<D K='0041'>42.37</D>
+<D K='0044'>00000000001</D>
+<D K='0132'>7009010000</D>
+<D K='0143'>4002</D>
+<D K='0459'>3.61</D>
+<D K='0460'>000086</D>
+<D K='0463'>50.00</D>
+<D K='0469'>00000000009993780</D>
+<D K='0470'>0.01</D>
+<D K='0471'>Q</D>
+<D K='0472'>00003486</D>
+<D K='0473'>002</D>
+<D K='0475'>D</D>
+<D K='0476'>42.37</D>
+<D K='0478'>0076</D>
+<D K='0490'>002</D>
+<D K='0493'>09</D>
+<D K='0495'>DEVOLUCION SOBRE VENTAS</D>
+<D K='0496'>JOSE SANTIAGO PEREZ QUIJANO</D>
+<D K='0500'>01</D>
+<D K='0509'>42.37</D>
+<D K='0510'>42.37</D>
+<D K='0512'>18.00</D>
+<D K='0513'>MI BALON</D>
+<D K='0523'>TIENDA 2060</D>
+<D K='0527'>7.63</D>
+<D K='0529'>7.63</D>
+<D K='0530'>50.00</D>
+<D K='0552'>TIENDA 2060</D>
+<D K='0553'>TDA 2060</D>
+<D K='0554'>7753420000657</D>
+<D K='0557'>18.00</D>
+<D K='0558'>50.00</D>
+<D K='0577'>18.00</D>
+<D K='0578'>42.37</D>
+<D K='0581'>42.37</D>
+<D K='0585'>50.00</D>
+<D K='0588'>PELOTAS</D>
+<D K='0636'>0.41</D>
+<D K='0637'>0.41</D>
+<D K='0640'>50.00</D>
+<D K='0641'>50.00</D>
+<D K='0646'>50.00</D>
+<D K='0647'>50.00</D>
+<D K='0666'>50.00</D>
+<D K='0671'>50.00288</D>
+<D K='0673'>50.00</D>
+<D K='0678'>00001</D>
+<D K='0828'>7.63</D>
+<D K='1105'>S/</D>
+<D K='1117'>P/FUTBOL MIBALON CLUB PVC # 4 SURT.</D>
+<D K='1133'>10</D>
+<D K='1145'>42.37</D>
+<D K='1150'>NIU</D>
+<D K='1201'>  0.000</D>
+<D K='1208'>0</D>
+<D K='1252'>13101652</D>
+<D K='1257'>11.73</D>
+<D K='1258'>11.74</D>
+<D K='1261'>2.11</D>
+<D K='1345'>42.37</D>
+<D K='1347'>42.37</D>
+<D K='1348'>42.37</D>
+<D K='1349'>7.63</D>
+<D K='1361'>50.00</D>
+</R>
+</Detail>
+<Payments>
+<R>
+<D K='0045'>0002</D>
+<D K='0046'>CONTADO-2060</D>
+<D K='0050'>001</D>
+<D K='0051'>20201118</D>
+<D K='0052'>150.00</D>
+<D K='0480'>3486</D>
+<D K='1132'>03</D>
+<D K='1136'>B003</D>
+<D K='1186'>10</D>
+</R>
+</Payments>
+</Billing>
+</XMLData>
