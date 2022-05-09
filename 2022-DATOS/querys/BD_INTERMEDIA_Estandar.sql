@@ -1,6 +1,6 @@
--- MySQL dump 10.13  Distrib 8.0.25, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.23, for Win64 (x86_64)
 --
--- Host: testsee.itc.com.pe    Database: bd_intermedia
+-- Host: 127.0.0.1    Database: bd_intermedia_des
 -- ------------------------------------------------------
 -- Server version	8.0.23
 
@@ -68,7 +68,6 @@ CREATE TABLE `tbl_cliente_inter` (
 
 LOCK TABLES `tbl_cliente_inter` WRITE;
 /*!40000 ALTER TABLE `tbl_cliente_inter` DISABLE KEYS */;
-INSERT INTO `tbl_cliente_inter` VALUES (1,'20565282965','INNOVACION TECNOLOGICA CORPORATIVA E.I.R.L.','2.0','1.0','6','150122','PJ. MARTIR JOSE OLAYA','LIMA','LIMA','MIRAFLORES','URB. CERCADO DE MIRAFLORES','xxxxxx-xxx'),(2,'20536383337','MAREA IMPORTACIONES S.A.C','2.0','1.0','6','150122','CAL.BOLIVAR NRO. 472 DPTO. 603 LIMA - LIMA - MIRAFLORES','LIMA','LIMA','MIRAFLORES','URB. CERCADO DE MIRAFLORES','xxxxxx-xxx');
 /*!40000 ALTER TABLE `tbl_cliente_inter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -96,7 +95,6 @@ CREATE TABLE `tbl_cliente_parametros_inter` (
 
 LOCK TABLES `tbl_cliente_parametros_inter` WRITE;
 /*!40000 ALTER TABLE `tbl_cliente_parametros_inter` DISABLE KEYS */;
-INSERT INTO `tbl_cliente_parametros_inter` VALUES ('001',1,'WsUrlServiceBill','https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService',''),('002',1,'WsMetodoBill','sendBill',''),('003',1,'WsMetodoSummary','sendSummary',''),('004',1,'WsUserBill','20565282965MODDATOS',''),('005',1,'WsPassBill','MODDATOS',''),('006',1,'FlagDiasEmisionResumen','0',''),('007',1,'vCorreo','efacturacion@itc.com.pe',''),('008',1,'vContrasenaCorreo','Hola@ItcEmisionElectronica@2018',''),('009',1,'vServerSMTP','smtp.office365.com',''),('010',1,'vPuerto','587',''),('011',1,'vRutaTemporal','C:\\Archivos\\Temp\\',''),('012',1,'vRutaTemplatePlantillas','C:\\Archivos\\Plantillas\\',''),('013',1,'vRutaTemplateFirmado','C:\\Archivos\\XmlGeneradoFirmado\\',''),('014',1,'vPasswordCertificado','6qhmHHVrFDXUaNR2',''),('015',1,'vNombreCertficado','N1NmSWJXN1dyd0w4TDBqcQ==.p12',''),('016',1,'FlagDiasEnvioBaja','0',''),('017',1,'FlagDiasFacturaBoleta','0',''),('018',1,'vRutaAplicacionPdf','C:\\Archivos\\GeneradorPDF\\bin\\wkhtmltopdf.exe',''),('019',1,'vLogo','C:\\Archivos\\Plantillas\\LogoITC.png',''),('020',1,'FlagNumIntentos','14',''),('021',1,'FlagEmisionManual','0',''),('022',1,'vFlagHomologacion','0',''),('023',1,'vUsuarioWSITC','WsC0nexItc@','puzA+Uo5RyBPJovLXWDnLQ=='),('024',1,'vSSL','1',''),('025',1,'vEmail_Contribuyente','',''),('026',1,'vNombre_Factura','InvoiceFactura_2.1.vm',''),('027',1,'vNombre_Boleta','BoletaTemplate_2.1.vm',''),('028',1,'vNombre_NotasDebito','NotaDebitoTemplate_2.1.vm',''),('029',1,'vNombre_NotasCredito','CreditNoteTemplate_2.1.vm',''),('030',1,'vNombre_ComunicacionBaja','IvoiceComunicacionBaja.vm',''),('031',1,'vNombre_ResumendeBoletas','ResumendeBoletas.vm',''),('032',1,'vNombre_TemplatePdf','Template_pdf_itc.html',''),('033',1,'vRutaFiles','D:\\ITC\\Archivos_Des\\20565282965\\Cpes_Electronicos\\',''),('034',1,'vRutaFilesSuccess','D:\\ITC\\Archivos_Des\\20565282965\\Cpes_Procesados\\',''),('035',1,'vRutaFilesError','D:\\ITC\\Archivos_Des\\20565282965\\Cpes_Excepciones\\',''),('036',1,'vRutaFilesObserv','D:\\ITC\\Archivos_Des\\20565282965\\Cpes_Obs\\',''),('001',2,'WsUrlServiceBill','https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService',''),('002',2,'WsMetodoBill','sendBill',''),('003',2,'WsMetodoSummary','sendSummary',''),('004',2,'WsUserBill','20536383337MODDATOS',''),('005',2,'WsPassBill','MODDATOS',''),('006',2,'FlagDiasEmisionResumen','0',''),('007',2,'vCorreo','efacturacion@itc.com.pe',''),('008',2,'vContrasenaCorreo','Sistema@Correo@',''),('009',2,'vServerSMTP','smtp.office365.com',''),('010',2,'vPuerto','587',''),('011',2,'vRutaTemporal','C:\\Archivos\\Temp\\',''),('012',2,'vRutaTemplatePlantillas','C:\\Archivos\\Plantillas\\',''),('013',2,'vRutaTemplateFirmado','C:\\Archivos\\XmlGeneradoFirmado\\',''),('014',2,'vPasswordCertificado','yQtA5QGFvgpx6NK',''),('015',2,'vNombreCertficado','CD-ITC-20190326-20200325.pfx',''),('016',2,'FlagDiasEnvioBaja','2',''),('017',2,'FlagDiasFacturaBoleta','2',''),('018',2,'vRutaAplicacionPdf','C:\\Archivos\\GeneradorPDF\\bin\\wkhtmltopdf.exe',''),('019',2,'vLogo','C:\\Archivos\\Plantillas\\MAREA_logo1.png',''),('020',2,'FlagNumIntentos','9',''),('021',2,'FlagEmisionManual','0',''),('022',2,'vFlagHomologacion','1',''),('023',2,'vUsuarioWSITC','WsConexMarea@','puzA+Uo5RyB+d7A/v2AuPg=='),('024',2,'vSSL','1',''),('025',2,'vEmail_Contribuyente','soporte@itc.com.pe',''),('026',2,'vNombre_Factura','InvoiceFactura_2.1.vm',''),('027',2,'vNombre_Boleta','BoletaTemplate_2.1.vm',''),('028',2,'vNombre_NotasDebito','NotaDebitoTemplate_2.1.vm',''),('029',2,'vNombre_NotasCredito','CreditNoteTemplate_2.1.vm',''),('030',2,'vNombre_ComunicacionBaja','IvoiceComunicacionBaja.vm',''),('031',2,'vNombre_ResumendeBoletas','ResumendeBoletas.vm',''),('032',2,'vNombre_TemplatePdf','Template_Marea.html',''),('033',2,'vRutaFiles','D:\\ITC\\Archivos_Des\\20536383337\\Cpes_Electronicos\\',''),('034',2,'vRutaFilesSuccess','D:\\ITC\\Archivos_Des\\20536383337\\Cpes_Procesados\\',''),('035',2,'vRutaFilesError','D:\\ITC\\Archivos_Des\\20536383337\\Cpes_Excepciones\\',''),('036',2,'vRutaFilesObserv','D:\\ITC\\Archivos_Des\\20536383337\\Cpes_Obs\\','');
 /*!40000 ALTER TABLE `tbl_cliente_parametros_inter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -247,7 +245,6 @@ CREATE TABLE `tbl_cpe_cabecera_inter` (
 
 LOCK TABLES `tbl_cpe_cabecera_inter` WRITE;
 /*!40000 ALTER TABLE `tbl_cpe_cabecera_inter` DISABLE KEYS */;
-INSERT INTO `tbl_cpe_cabecera_inter` VALUES (109,'01','PEN','02','101',NULL,'1','20565282965','ITC','6','000','150131','AV. GUILLERMO PRESCOTT NRO. 136','LIMA','LIMA','LIMA','SAN ISIDRO','F004','00000230','01','','20600657888','6','TIENDAS ARUMA S.A.C.','AV. JAVIER PRADO ESTE NRO. 6210 INT. 1201 URB. RIVERA DE MONTERRICO (E-LA MOLINA-LIMA','0.00',0.00,'','','',254.24,0.00,0.00,0.00,0.00,0.00,45.76,0.00,0.00,'',254.24,'0.00',0.00,0.00,300.00,'','','',NULL,'','','',NULL,NULL,NULL,NULL,NULL,'2021-05-12 00:00:00','09:24:52','2021-06-11 00:00:00','2021-05-12 13:16:58','0','',NULL,'','','0','',NULL,'1',3.70,'CREDITO A CUOTAS',NULL,'0','0','3','0101','','','','0','','999 - BEAUTYGE ANDINA SA','','',0.00,'0.00','','','','','','','','','','','','','','','','','','','','','','','','','','',0.00,'','','','','','','',0.00,0.00,0.00,'0',2,300.00),(110,'01','PEN','02','101',NULL,'1','20565282965','INNOVACION TECNOLOGICA CORPORATIVA E.I.R.L.','6','1','150135','direccion','-','LIMA','LIMA','SAN MARTIN DE PORRES','F001','00000001','01','','10084505108','6','GUTIERREZ SANTIAGO DE CARNALES L','MZ A5 LT 15 ESQ DE AV CORDIALIDAD PRO 2DA ETAPA ','',0.00,'','','',140.00,0.00,0.00,0.00,0.00,0.00,25.20,0.00,0.00,'01',0.00,'',0.00,0.00,165.20,'','','',NULL,'','','',NULL,NULL,NULL,NULL,NULL,'2021-03-25 00:00:00','15:23:52',NULL,'2021-05-12 15:38:49','0','',NULL,'','','0','',NULL,'1',0.00,'CONTADO',NULL,'0','0','3','0101','','','','1','','','','',0.00,'','','','','','','','','','','','','','','','','','','','','','','','','','','',0.00,'','','','','','','',0.00,0.00,0.00,'0',2,165.20),(111,'03','PEN','03','101',NULL,'1','20565282965','AGETEX SAC','6','','150140','JR. CRUZ DEL SUR N 140-154 INT. 506','-','LIMA','LIMA','SANTIAGO DE SURCO','B001','00000280','01','','42819270','1','MEJIA DIAZ ALEX ELFER','AV. MICAELA BASTIDAS MZA. E TORRE E26 DPT.708- COMAS-COMAS-LIMA','0.00',0.00,'','','',16.96,0.00,0.00,0.00,0.00,0.00,3.05,0.00,0.00,'',16.96,'0.00',0.00,0.00,20.01,'','','',NULL,'','','',NULL,NULL,NULL,NULL,NULL,'2021-07-16 00:00:00','11:49:32','2021-07-16 00:00:00','2021-07-19 15:57:48','0','',NULL,'','alex_md@hotmail.com','0','',NULL,'0',3.96,'CONTADO',NULL,'0','0','2','0101','','','','0','','','','',0.00,'0.00','','','','','','','','','','','','','','','','','','','','','','','','','','',0.00,'','','','','','','',0.00,0.00,0.00,'1',1,0.00),(112,'03','PEN','03','101',NULL,'1','20565282965','AGETEX SAC','6','','150140','JR. CRUZ DEL SUR N 140-154 INT. 506','-','LIMA','LIMA','SANTIAGO DE SURCO','B001','00000279','01','','06064907','1','CASTILLO MENDOZA TEODORA','CRUCETA 3ERA ETAPA BLOCK 17 DPTO. 303 - SURCO-SURCO-LIMA','0.00',0.00,'','','',76.27,0.00,0.00,0.00,0.00,0.00,13.73,0.00,0.00,'',76.27,'0.00',0.00,0.00,90.00,'','','',NULL,'','','',NULL,NULL,NULL,NULL,NULL,'2021-07-13 00:00:00','16:27:48','2021-07-13 00:00:00','2021-07-19 16:52:36','0','',NULL,'','','0','',NULL,'0',3.96,'CONTADO',NULL,'0','0','2','0101','','','001-0014578','0','','','','',0.00,'0.00','','','','','','','','','','','','','','','','','','','','','','','','','','',0.00,'','','','','','','',0.00,0.00,0.00,'1',1,0.00);
 /*!40000 ALTER TABLE `tbl_cpe_cabecera_inter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -365,7 +362,6 @@ CREATE TABLE `tbl_cpe_det_cabecera_inter` (
 
 LOCK TABLES `tbl_cpe_det_cabecera_inter` WRITE;
 /*!40000 ALTER TABLE `tbl_cpe_det_cabecera_inter` DISABLE KEYS */;
-INSERT INTO `tbl_cpe_det_cabecera_inter` VALUES (22,1,'NIU',2.0000000000,254.2400,'10',150.0000000000,0.00,45.76,'RP EQUAVE IB SUN PROT. CONDIT. x 200 ml','7221901000','53131628',127.1200,'','0.00',0.00,0.00000,0.00,0.00,'Y19615A - 2024-06-15','0.000000 - UNIDAD',300.00,109,'1'),(23,1,'NIU',4.0000000000,40.0000,'10',11.8000000000,0.00,7.20,'FRESA','0100003','50192303',10.0000,'','',0.00,0.00000,0.00,0.00,'','',47.20,110,'1'),(24,2,'NIU',3.0000000000,30.0000,'10',11.8000000000,0.00,5.40,'LUCUMA','0100002','50192303',10.0000,'','',0.00,0.00000,0.00,0.00,'','',35.40,110,'1'),(25,3,'NIU',2.0000000000,20.0000,'10',11.8000000000,0.00,3.60,'PERA','0100005','50192303',10.0000,'','',0.00,0.00000,0.00,0.00,'','',23.60,110,'1'),(26,4,'NIU',2.0000000000,20.0000,'10',11.8000000000,0.00,3.60,'MANZANA','0100007','50192303',10.0000,'','',0.00,0.00000,0.00,0.00,'','',23.60,110,'1'),(27,5,'NIU',1.0000000000,10.0000,'10',11.8000000000,0.00,1.80,'MELON','0100008','50192303',10.0000,'','',0.00,0.00000,0.00,0.00,'','',11.80,110,'1'),(28,6,'NIU',1.0000000000,10.0000,'10',11.8000000000,0.00,1.80,'UVA','0100001','50192303',10.0000,'','',0.00,0.00000,0.00,0.00,'','',11.80,110,'1'),(29,7,'NIU',1.0000000000,10.0000,'10',11.8000000000,0.00,1.80,'MANDARINA','0100009','50192303',10.0000,'','',0.00,0.00000,0.00,0.00,'','',11.80,110,'1'),(30,1,'NIU',10.0000000000,8.4800,'10',1.0010000000,0.00,1.53,'130/705 H B10  UNIVERSAL         75','130/705 H B10 75','',0.8480,'','0.00',0.00,0.00000,0.00,0.00,'','',10.01,111,'1'),(31,2,'NIU',10.0000000000,8.4800,'10',1.0000000000,0.00,1.52,'130/705 H B5  UNIVERSAL         90','130/705 H B5 90','',0.8480,'','0.00',0.00,0.00000,0.00,0.00,'','',10.00,111,'1'),(32,1,'ZZ',1.0000000000,67.8000,'10',80.0000000000,0.00,12.20,'SERV. REPARACION MAQ.CV3550 N/S U64861H9U15523','M.O.  EXTERNO','',67.8000,'','0.00',0.00,0.00000,0.00,0.00,'','',80.00,112,'1'),(33,2,'ZZ',10.0000000000,8.4800,'10',1.0010000000,0.00,1.53,'130/705 H FG/SUK JERSEY BX10	80','MANO OBRA','',0.8480,'','0.00',0.00,0.00000,0.00,0.00,'','',10.01,112,'1');
 /*!40000 ALTER TABLE `tbl_cpe_det_cabecera_inter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -458,7 +454,6 @@ CREATE TABLE `tbl_credito_cuota_inter` (
 
 LOCK TABLES `tbl_credito_cuota_inter` WRITE;
 /*!40000 ALTER TABLE `tbl_credito_cuota_inter` DISABLE KEYS */;
-INSERT INTO `tbl_credito_cuota_inter` VALUES (10,109,1,100.00,'2021-06-11 00:00:00'),(11,109,2,100.00,'2021-07-11 00:00:00'),(12,109,3,100.00,'2021-08-15 00:00:00'),(13,110,1,120.00,'2021-04-15 00:00:00'),(14,110,2,40.00,'2021-04-30 00:00:00'),(15,110,3,5.20,'2021-05-30 00:00:00');
 /*!40000 ALTER TABLE `tbl_credito_cuota_inter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -638,16 +633,15 @@ CREATE TABLE `tbl_usuario_inter` (
 
 LOCK TABLES `tbl_usuario_inter` WRITE;
 /*!40000 ALTER TABLE `tbl_usuario_inter` DISABLE KEYS */;
-INSERT INTO `tbl_usuario_inter` VALUES (1,'caferma','Welc0me2018@','caferma','caferma','caferma','','2018-10-05 16:33:37','1','20476798770',NULL);
 /*!40000 ALTER TABLE `tbl_usuario_inter` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Dumping events for database 'bd_intermedia'
+-- Dumping events for database 'bd_intermedia_des'
 --
 
 --
--- Dumping routines for database 'bd_intermedia'
+-- Dumping routines for database 'bd_intermedia_des'
 --
 /*!50003 DROP PROCEDURE IF EXISTS `COPIAR_DATOS_DETALLE` */;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
@@ -3264,4 +3258,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-07-20 18:07:54
+-- Dump completed on 2022-05-09 10:15:16
