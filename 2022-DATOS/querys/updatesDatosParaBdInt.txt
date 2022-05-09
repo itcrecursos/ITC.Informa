@@ -1,3 +1,45 @@
+-- SOLO ESTO.
+
+INSERT INTO `tbl_cliente_parametros_inter` VALUES 
+('001',1,'WsUrlServiceBill','https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService',''),
+('002',1,'WsMetodoBill','sendBill',''),
+('003',1,'WsMetodoSummary','sendSummary',''),
+('004',1,'WsUserBill','20565282965MODDATOS',''),
+('005',1,'WsPassBill','MODDATOS',''),
+('006',1,'FlagDiasEmisionResumen','0',''),
+('007',1,'vCorreo','efacturacion@itc.com.pe',''),
+('008',1,'vContrasenaCorreo','Hola@ItcEmisionElectronica@2018',''),
+('009',1,'vServerSMTP','smtp.office365.com',''),
+('010',1,'vPuerto','587',''),
+('011',1,'vRutaTemporal','C:\\Archivos\\Temp\\',''),
+('012',1,'vRutaTemplatePlantillas','C:\\Archivos\\Plantillas\\',''),
+('013',1,'vRutaTemplateFirmado','C:\\Archivos\\XmlGeneradoFirmado\\',''),
+('014',1,'vPasswordCertificado','6qhmHHVrFDXUaNR2',''),
+('015',1,'vNombreCertficado','N1NmSWJXN1dyd0w4TDBqcQ==.p12',''),
+('016',1,'FlagDiasEnvioBaja','0',''),
+('017',1,'FlagDiasFacturaBoleta','0',''),
+('018',1,'vRutaAplicacionPdf','C:\\Archivos\\GeneradorPDF\\bin\\wkhtmltopdf.exe',''),
+('019',1,'vLogo','C:\\Archivos\\Plantillas\\LogoITC.png',''),
+('020',1,'FlagNumIntentos','14',''),
+('021',1,'FlagEmisionManual','0',''),
+('022',1,'vFlagHomologacion','0',''),
+('023',1,'vUsuarioWSITC','WsC0nexItc@','puzA+Uo5RyBPJovLXWDnLQ=='),
+('024',1,'vSSL','1',''),
+('025',1,'vEmail_Contribuyente','',''),
+('026',1,'vNombre_Factura','InvoiceFactura_2.1.vm',''),
+('027',1,'vNombre_Boleta','BoletaTemplate_2.1.vm',''),
+('028',1,'vNombre_NotasDebito','NotaDebitoTemplate_2.1.vm',''),
+('029',1,'vNombre_NotasCredito','CreditNoteTemplate_2.1.vm',''),
+('030',1,'vNombre_ComunicacionBaja','IvoiceComunicacionBaja.vm',''),
+('031',1,'vNombre_ResumendeBoletas','ResumendeBoletas.vm',''),
+('032',1,'vNombre_TemplatePdf','Template_pdf_itc.html',''),
+('033',1,'vRutaFiles','D:\\ITC\\Archivos_Des\\20108552841\\Cpes_Electronicos\\',''),
+('034',1,'vRutaFilesSuccess','D:\\ITC\\Archivos_Des\\20108552841\\Cpes_Procesados\\',''),
+('035',1,'vRutaFilesError','D:\\ITC\\Archivos_Des\\20108552841\\Cpes_Excepciones\\',''),
+('036',1,'vRutaFilesObserv','D:\\ITC\\Archivos_Des\\20108552841\\Cpes_Obs\\','');
+
+
+
 
 
 -- revlon
