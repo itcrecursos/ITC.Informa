@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.23, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: bd_intermedia_des
+-- Host: 127.0.0.1    Database: bd_intermedia
 -- ------------------------------------------------------
 -- Server version	8.0.23
 
@@ -581,6 +581,35 @@ INSERT INTO `tbl_parametros_inter` VALUES ('001','WsUrlServiceBill','Ruta de env
 UNLOCK TABLES;
 
 --
+-- Table structure for table `tbl_retenciones`
+--
+
+DROP TABLE IF EXISTS `tbl_retenciones`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `tbl_retenciones` (
+  `ID` int NOT NULL AUTO_INCREMENT,
+  `RETENCION_CODIGO` varchar(6) DEFAULT NULL,
+  `RETENCION_FACTOR` varchar(10) DEFAULT NULL,
+  `RETENCION_BASE` decimal(12,2) DEFAULT NULL,
+  `RETENCION_MONTO` decimal(12,2) DEFAULT NULL,
+  `NUM_CPE_INTERMEDIA` int DEFAULT NULL,
+  PRIMARY KEY (`ID`),
+  KEY `NUM_CPE_INTERMEDIA` (`NUM_CPE_INTERMEDIA`),
+  CONSTRAINT `tbl_retenciones_ibfk_1` FOREIGN KEY (`NUM_CPE_INTERMEDIA`) REFERENCES `tbl_cpe_cabecera_inter` (`NUM_CPE_INTERMEDIA`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tbl_retenciones`
+--
+
+LOCK TABLES `tbl_retenciones` WRITE;
+/*!40000 ALTER TABLE `tbl_retenciones` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tbl_retenciones` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `tbl_tipo_moneda_inter`
 --
 
@@ -637,11 +666,11 @@ LOCK TABLES `tbl_usuario_inter` WRITE;
 UNLOCK TABLES;
 
 --
--- Dumping events for database 'bd_intermedia_des'
+-- Dumping events for database 'bd_intermedia'
 --
 
 --
--- Dumping routines for database 'bd_intermedia_des'
+-- Dumping routines for database 'bd_intermedia'
 --
 /*!50003 DROP PROCEDURE IF EXISTS `COPIAR_DATOS_DETALLE` */;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
@@ -2446,6 +2475,33 @@ DELIMITER ;
 /*!50003 SET character_set_client  = @saved_cs_client */ ;
 /*!50003 SET character_set_results = @saved_cs_results */ ;
 /*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `SEE_ITC_INSERTAR_RETENCION2_1` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`%` PROCEDURE `SEE_ITC_INSERTAR_RETENCION2_1`(
+pRETENCION_CODIGO varchar(6),
+pRETENCION_FACTOR varchar(10),
+pRETENCION_BASE decimal(12,2),
+pRETENCION_MONTO decimal(12,2),
+pNUM_CPE_INTERMEDIA int
+)
+BEGIN
+
+	insert into tbl_retenciones values(null, pRETENCION_CODIGO, pRETENCION_FACTOR, pRETENCION_BASE, pRETENCION_MONTO, pNUM_CPE_INTERMEDIA);
+    
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 /*!50003 DROP PROCEDURE IF EXISTS `SEE_ITC_INSERT_BUCLE` */;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
 /*!50003 SET @saved_cs_results     = @@character_set_results */ ;
@@ -3258,4 +3314,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-05-09 10:15:16
+-- Dump completed on 2022-05-11 15:27:41
