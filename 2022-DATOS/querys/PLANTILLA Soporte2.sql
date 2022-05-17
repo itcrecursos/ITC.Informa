@@ -56,7 +56,7 @@ select C.NUM_COD_CLIENTE,C.NUM_RUC_EMIS,C.NOM_RZN_SOC_EMIS,  CP.TXT_VALOR_PARAME
 on CP.NUM_COD_CLIENTE = C.NUM_COD_CLIENTE Where
 CP.COD_PARAMETRO='001' and CP.TXT_VALOR_PARAMETRO <> 'https://e-factura.sunat.gob.pe/ol-ti-itcpfegem/billService';
 
--- update `bd_fact_itc_portal`.tbl_cliente_parametros set txt_valor_parametro='1' Where cod_parametro='022' and num_cod_cliente='1';
+-- update `bd_fact_itc_portal`.tbl_cliente_parametros set txt_valor_parametro='https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService' Where cod_parametro='001' and num_cod_cliente='1';
 -- update `bd_fact_itc_portal`.tbl_cliente_parametros set txt_valor_parametro='InvoiceFactura_2.1-FormaPago.vm' Where num_cod_cliente='1' and cod_parametro='026';
 -- update `bd_fact_itc_portal`.tbl_cliente_parametros set txt_valor_parametro='https://ose.nubefact.com/ol-ti-itcpe/billService' Where num_cod_cliente='53' and cod_parametro='001';
 
@@ -155,13 +155,20 @@ select * from `bd_fact_itc_portal`.tbl_cpe_cabecera Where COD_CLIENTE_EMIS='18' 
 and date(FEC_RECP_DOC1) = date('2020-12-09')
  -- and NUM_IDEN_RECP='20551874011' a
  order by NUM_CPE desc  limit 90;
-select * from `bd_fact_itc_portal`.tbl_cpe_cabecera Where COD_CLIENTE_EMIS='212' -- order by NUM_CPE desc;
-and TXT_SERIE = 'B006'  and TXT_CORRELATIVO = '00005299';
-select * from `bd_fact_itc_portal`.tbl_cpe_det_cabecera where num_cpe='2050575';
+select * from `bd_fact_itc_portal`.tbl_cpe_cabecera Where COD_CLIENTE_EMIS='1' -- order by NUM_CPE desc;
+and TXT_SERIE = 'BB11'  and TXT_CORRELATIVO = '00000227';
+select * from `bd_fact_itc_portal`.tbl_cpe_cabecera order by NUM_CPE desc;
+
+select * from `bd_fact_itc_portal`.tbl_cpe_det_cabecera where num_cpe='2442931';
+select * from `bd_fact_itc_portal`.tbl_cpe_det_cabecera order by NUM_DET_CABECERA desc;
+select * from `bd_facturadoreinventarios_itc`.tbl_cpe_cabecera Where COD_CLIENTE_EMIS='1' -- order by NUM_CPE desc;
+and TXT_SERIE = 'BB11'  and TXT_CORRELATIVO = '00000227';
+select * from `bd_facturadoreinventarios_itc`.tbl_cpe_det_cabecera Where num_cpe='1050943';
+select * from `bd_fact_itc_portal`.tbl_cpe_cabecera_resumen_diario where COD_CLIENTE_EMIS='1' order by NUM_CPE_RESUMEN desc;
 select * from `bd_fact_itc_portal`.tbl_credito_cuota where num_cpe='2050575';
 SELECT `tbl_estd_sunat`.`COD_ESTD_SUNAT`,`tbl_estd_sunat`.`TXT_DESCR`FROM `bd_fact_itc_portal`.`tbl_estd_sunat`;
 select * from `bd_fact_itc_portal`.tbl_cpe_det_cabecera Where num_cpe=895321;
-select * from `bd_fact_itc_portal`.tbl_cliente_parametros where NUM_COD_CLIENTE='5';
+select * from `bd_fact_itc_portal`.tbl_cliente_parametros where NUM_COD_CLIENTE='1';
 select * from `bd_fact_itc_portal`.tbl_cliente Where NOM_RZN_SOC_EMIS like '%psic%';
 select * from `bd_fact_itc_portal`.tbl_cpe_det_cabecera Where num_cpe in (830420,830070,829694,829650);
 select * from `bd_fact_itc_portal`.tbl_usuario where NUM_RUC_EMIS='20147736739';
@@ -200,12 +207,12 @@ order by NUM_CPE DESC limit 1000;
 
 -- Facturador
 
-select * from `bd_facturadoreinventarios_itc_bk`.tbl_cpe_cabecera Where COD_CLIENTE_EMIS='1' -- and FLAG_CARGA = '7'
+select * from `bd_facturadoreinventarios_itc`.tbl_cpe_cabecera Where COD_CLIENTE_EMIS='1' -- and FLAG_CARGA = '7'
  order by NUM_CPE desc;
-select * from `bd_facturadoreinventarios_itc_bk`.tbl_emisor Where `NOM_RZN_SOC_EMIS` like '%aq%';
-select * from `bd_facturadoreinventarios_itc_bk`.tbl_usuario where NUM_RUC_EMIS='20480674414';
-select * from `bd_facturadoreinventarios_itc_bk`.tbl_emisor where num_cod_emisor='296';
-select * from `bd_facturadoreinventarios_itc_bk`.tbl_cliente_parametros where COD_EMISOR='1';
+select * from `bd_facturadoreinventarios_itc`.tbl_emisor Where `NOM_RZN_SOC_EMIS` like '%aq%';
+select * from `bd_facturadoreinventarios_itc`.tbl_usuario where NUM_RUC_EMIS='20480674414';
+select * from `bd_facturadoreinventarios_itc`.tbl_emisor where num_cod_emisor='296';
+select * from `bd_facturadoreinventarios_itc`.tbl_cliente_parametros where COD_EMISOR='1';
 
 
 select * from `bd_facturadoreinventarios_itc`.tbl_cliente_parametros Where txt_valor_parametro='I'
@@ -216,6 +223,8 @@ select * from `bd_facturadoreinventarios_itc`.tbl_series Where COD_EMISOR='195';
 Insert into `bd_facturadoreinventarios_itc`.tbl_series (COD_EMISOR, COD_LOCAL, TXT_SERIE, COD_TIP_CPE) values 
 ('195',208,'C002',98); */
 
+-- update `bd_facturadoreinventarios_itc`.tbl_cliente_parametros set txt_valor_parametro='https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService' Where COD_EMISOR='1' and cod_parametro='037';
+-- update `bd_facturadoreinventarios_itc`.tbl_cliente_parametros set txt_valor_parametro='I' Where COD_EMISOR='1' and cod_parametro='037';
 -- update `bd_facturadoreinventarios_itc`.tbl_cliente_parametros set txt_valor_parametro='P' Where COD_EMISOR='1' and cod_parametro='037';
 
 -- Template_pdf_INTEGRACION-GENERICO.html
