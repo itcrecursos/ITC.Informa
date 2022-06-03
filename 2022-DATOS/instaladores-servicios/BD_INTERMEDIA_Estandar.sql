@@ -16,28 +16,6 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `prueba`
---
-
-DROP TABLE IF EXISTS `prueba`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `prueba` (
-  `numero` char(5) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `prueba`
---
-
-LOCK TABLES `prueba` WRITE;
-/*!40000 ALTER TABLE `prueba` DISABLE KEYS */;
-INSERT INTO `prueba` VALUES ('33eas'),('eas'),('22322'),('a'),('');
-/*!40000 ALTER TABLE `prueba` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `tbl_cliente_inter`
 --
 
@@ -3314,4 +3292,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-05-17 11:37:31
+-- Dump completed on 2022-06-03 12:12:53
