@@ -3048,7 +3048,7 @@ BEGIN
 	 declare done int default 0;
 
      select TXT_SERIE, TXT_CORRELATIVO, COD_AFECTAC_IGV, 
-     MONTO, COD_REL_ATRI
+     MONTO, COD_REL_ATRI, NUM_CPE_INTERMEDIA
      from tbl_anticipo_inter 
      where NUM_CPE_INTERMEDIA= pnumcpe;
      
