@@ -81,21 +81,20 @@ INSERT INTO `tbl_cliente_parametros_inter` VALUES
 ('036',69,'vRutaFilesObserv','\\\\LALIM-HPG8-S\\Servicios_ITC\\Archivos_Des\\20510643306\\Cpes_Obs','');
 
 update tbl_cliente_parametros_inter 
-set TXT_vALOR_PARAMETRO='E:\\ITC\\Archivos_Des\\20294866117\\Cpes_Electronicos\\'
-Where NUM_COD_CLIENTE=19 and COD_PARAMETRO='033';
+set TXT_vALOR_PARAMETRO='D:\\ITC\\Archivos_Des\\20565282965\\Cpes_Electronicos\\'
+Where NUM_COD_CLIENTE=99 and COD_PARAMETRO='033';
 
 update tbl_cliente_parametros_inter 
-set TXT_vALOR_PARAMETRO='E:\\ITC\\Archivos_Des\\20294866117\\Cpes_Procesados\\'
-Where NUM_COD_CLIENTE=19 and COD_PARAMETRO='034';
+set TXT_vALOR_PARAMETRO='D:\\ITC\\Archivos_Des\\20565282965\\Cpes_Procesados\\'
+Where NUM_COD_CLIENTE=99 and COD_PARAMETRO='034';
 
 update tbl_cliente_parametros_inter 
-set TXT_vALOR_PARAMETRO='E:\\ITC\\Archivos_Des\\20294866117\\Cpes_Excepciones\\'
-Where NUM_COD_CLIENTE=19 and COD_PARAMETRO='035';
+set TXT_vALOR_PARAMETRO='D:\\ITC\\Archivos_Des\\20565282965\\Cpes_Excepciones\\'
+Where NUM_COD_CLIENTE=99 and COD_PARAMETRO='035';
 
 update tbl_cliente_parametros_inter 
-set TXT_vALOR_PARAMETRO='E:\\ITC\\Archivos_Des\\20294866117\\Cpes_Observaciones\\'
-Where NUM_COD_CLIENTE=19 and COD_PARAMETRO='036';
-
+set TXT_vALOR_PARAMETRO='D:\\ITC\\Archivos_Des\\20565282965\\Cpes_Observaciones\\'
+Where NUM_COD_CLIENTE=99 and COD_PARAMETRO='036';
 
 update tbl_cliente_parametros_inter 
 set TXT_vALOR_PARAMETRO='\\\\LALIM-HPG8-S\\Servicios_ITC\\Archivos_Des\\20510643306\\Cpes_Procesados'
