@@ -1,9 +1,9 @@
 {
     "identificador": "FC",
-    "fec_emis": "2022-01-15",
+    "fec_emis": "2022-07-11",
     "hora_emis": "00:00:00",
-    "txt_serie": "FE01",
-    "txt_correlativo": "00000014",
+    "txt_serie": "FJ",
+    "txt_correlativo": "00000002",
     "cod_tip_cpe": "01",
     "cod_mnd": "PEN",
     "cod_tip_escenario": "01",

@@ -1,6 +1,6 @@
 {
     "identificador": "FC",
-    "fec_emis": "2021-11-16",
+    "fec_emis": "2022-07-11",
     "hora_emis": "00:00:00",
     "txt_serie": "FJ01",
     "txt_correlativo": "00000034",
@@ -97,21 +97,21 @@
   	"mnto_crdt_ttal": 0.00,
 	"anticipos": [
 		{
-			"txt_serie_anticipo": "FE11",
+			"txt_serie_anticipo": "FJ01",
 			"txt_correlativo_anticipo": "00000001",
 			"mnt_anticipo": 30.00,
 			"cod_afectacion_igv": 20,
 			"txt_cod_cpe_anticipo": "02"
 		},
 		{
-			"txt_serie_anticipo": "FE11",
+			"txt_serie_anticipo": "FJ01",
 			"txt_correlativo_anticipo": "00000002",
 			"mnt_anticipo": 110.00,
 			"cod_afectacion_igv": 20,
 			"txt_cod_cpe_anticipo": "02"
 		},
 		{
-			"txt_serie_anticipo": "FE11",
+			"txt_serie_anticipo": "FJ01",
 			"txt_correlativo_anticipo": "00000003",
 			"mnt_anticipo": 10.00,
 			"cod_afectacion_igv": 20,
