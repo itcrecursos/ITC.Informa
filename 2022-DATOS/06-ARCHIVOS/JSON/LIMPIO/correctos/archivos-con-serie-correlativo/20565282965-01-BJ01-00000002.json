@@ -93,8 +93,15 @@
     "num_cta_bn": "",
     "tip_detrac": "",
     "infos_detrac": "",
-    "cod_tip_frmpgo": 1,
-  	"mnto_crdt_ttal": 0.00,
+    "cod_tip_frmpgo": 2,
+	"mnto_crdt_ttal": 1.00,
+	"CuotasCredito": [
+        {
+            "num_cuota": 1,
+            "mnto_crdt_cta": 1.00,
+            "fch_cta": "2024-07-30"
+		}
+    ],
     "detalles": [
         {
           "num_lin_item": 1,

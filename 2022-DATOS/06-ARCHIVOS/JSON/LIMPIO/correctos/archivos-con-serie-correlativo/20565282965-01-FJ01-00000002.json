@@ -99,12 +99,12 @@
         {
             "num_cuota": 1,
             "mnto_crdt_cta": 30.00,
-            "fch_cta": "2022-01-16"
+            "fch_cta": "2024-07-30"
 		},
 		{
             "num_cuota": 2,
             "mnto_crdt_cta": 70.00,
-            "fch_cta": "2022-01-16"
+            "fch_cta": "2024-08-30"
 		}
     ],
     "detalles": [
