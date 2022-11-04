@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<response>
-  <error code="1">3307-El valor de cargo/descuento global difiere de los importes consignados - Detalle: xxx.xxx.xxx value='ticket: 1658765795363 error: Error Cargo/Descuento 02: 3307 (nodo: "cac:AllowanceCharge/cbc:Amount" valor: "21.00")'</error>
-</response>
