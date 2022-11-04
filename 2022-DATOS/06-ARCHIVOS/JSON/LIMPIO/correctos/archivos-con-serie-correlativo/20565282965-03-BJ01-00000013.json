@@ -1,9 +1,9 @@
 {
     "identificador": "BC",
-    "fec_emis": "2022-07-11",
+    "fec_emis": "2022-11-04",
     "hora_emis": "00:00:00",
     "txt_serie": "BJ01",
-    "txt_correlativo": "00000012",
+    "txt_correlativo": "00000013",
     "cod_tip_cpe": "03",
     "cod_mnd": "PEN",
     "cod_tip_escenario": "01",

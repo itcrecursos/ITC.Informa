@@ -1,9 +1,9 @@
 {
     "identificador": "CC",
-    "fec_emis": "2022-02-23",
+    "fec_emis": "2022-11-04",
     "hora_emis": "00:00:00",
-    "txt_serie": "FE01",
-    "txt_correlativo": "00000005",
+    "txt_serie": "FJ01",
+    "txt_correlativo": "00000035",
     "cod_tip_cpe": "07",
     "cod_mnd": "PEN",
     "cod_tip_escenario": "01",
