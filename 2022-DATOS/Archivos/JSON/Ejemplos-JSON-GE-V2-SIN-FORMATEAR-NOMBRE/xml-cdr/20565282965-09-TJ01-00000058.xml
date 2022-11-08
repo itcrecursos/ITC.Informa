@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+      <ds:Signature Id="SignatureSP"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>5N6k9LpwdjWz2jRQ6WaedFlMIlg=</DigestValue></Reference></SignedInfo><SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">G8sOwIe7LTAO4btCN/YPYCXbE/e9KSH/62y4iFsANBJbUXoXR3Dm4vIMOOmm/eEMU0w99zWTWpsi+dLPwvlmW3F9YF0B82QhN4TuuiieMGWTa3QIvP54vn4czMAwDTbHniSIdjahqsVZcAwykRPZIP+vBycS1OA7JV7NW7qWfpGSP74ExgaYmwgh88ZPoJxOFY8hdMjO2f9E1hyzwEG03/AZ7uE2Ywbwsu40TVWsj5eV3ebWljJ9IDj/Va03ZsNtlaLjsWrlL/umUPj6IiX6NKPMO/46ORPTpFxdJSP4a0Rfbenopq2VWIJkPZcCOjJuF7IcHdM08EjUtIivH5ScCA==</SignatureValue><KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><X509Data><X509Certificate>MIIFBzCCA++gAwIBAgIIBARRVyCr62EwDQYJKoZIhvcNAQELBQAwggENMRswGQYKCZImiZPyLGQBGRYLTExBTUEuUEUgU0ExCzAJBgNVBAYTAlBFMQ0wCwYDVQQIDARMSU1BMQ0wCwYDVQQHDARMSU1BMRgwFgYDVQQKDA9UVSBFTVBSRVNBIFMuQS4xRTBDBgNVBAsMPEROSSA5OTk5OTk5IFJVQyAyMDU2NTI4Mjk2NSAtIENFUlRJRklDQURPIFBBUkEgREVNT1NUUkFDScOTTjFEMEIGA1UEAww7Tk9NQlJFIFJFUFJFU0VOVEFOVEUgTEVHQUwgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xHDAaBgkqhkiG9w0BCQEWDWRlbW9AbGxhbWEucGUwHhcNMjIwMjA4MjAxMTE1WhcNMjQwMjA4MjAxMTE1WjCCAQ0xGzAZBgoJkiaJk/IsZAEZFgtMTEFNQS5QRSBTQTELMAkGA1UEBhMCUEUxDTALBgNVBAgMBExJTUExDTALBgNVBAcMBExJTUExGDAWBgNVBAoMD1RVIEVNUFJFU0EgUy5BLjFFMEMGA1UECww8RE5JIDk5OTk5OTkgUlVDIDIwNTY1MjgyOTY1IC0gQ0VSVElGSUNBRE8gUEFSQSBERU1PU1RSQUNJw5NOMUQwQgYDVQQDDDtOT01CUkUgUkVQUkVTRU5UQU5URSBMRUdBTCAtIENFUlRJRklDQURPIFBBUkEgREVNT1NUUkFDScOTTjEcMBoGCSqGSIb3DQEJARYNZGVtb0BsbGFtYS5wZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJvYaHStfOJzl254ec6P+fyVVbQCdbC9P6XNOv/TFW9YTx4uX6PRnL+zN0SE0E55AMUAqtRYdIF2eS69qMm3wvkZIOuM9H6Y3EJxGRjPqbHPPCnroiQyA8IggYFAWm+EJFLxWhZ5O6pj8gD+7MFeHyGc3gDKulIgINDPtZBaiTM6p9HsmNu/9+cDpB98ag8ZfxeGMgaE3yaiFkfaaNVlLRuSs7PbY5R2l5Z5o9VgYCF7+Cx/pE2Utbw02ZsZvyUfKl8VvEL4In9qGCXBLJgGyhgoSM4zSKdlAgbZPlKH1FWytrkrNLvrR8/PTCTZ3+RNWjfd9WAXX+vC8BcSCS5r/SsCAwEAAaNnMGUwHQYDVR0OBBYEFCUl1ty+PGHlS8a3wYdX6Tcp7v0QMB8GA1UdIwQYMBaAFCUl1ty+PGHlS8a3wYdX6Tcp7v0QMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwEB/wQEAwIHgDANBgkqhkiG9w0BAQsFAAOCAQEACj+vn0ItyQbt1Kzk5c4YdAUXog6JeG0UjvFpa/zrZTmjdDPVmI4W4Md0B+91ghafLXOuEqcn0G4hBDpsnHSnoqoj4mFxgKQacmBSbqqi5TBqjmauUPE0msVvw7/dXgYUdWd3ermxbJCue+e2X/d6UB5kM6AVGKC53ihEwn7aXqz2tPu+pVj4g2qrE3IeyqsSj1jGqpwfFvpUgPqCGyCnw6PX3rVZkeuYSzy57OVMz0RyT6ZXaFeWAtIFXIovWWl40N6WbznEYkmXwEOZsS5HaIU4EkS5weR3WZSY7NvH1XWiGsTCpLFnL2GZALY+86SrWZV896/2rK4vNpwsGjB/LA==</X509Certificate></X509Data></KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>2.0</cbc:CustomizationID>
+  <cbc:ID>TJ01-00000058</cbc:ID>
+  <cbc:IssueDate>2022-10-26</cbc:IssueDate>
+  <cbc:IssueTime>00:00:00</cbc:IssueTime>
+  <cbc:DespatchAdviceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01">09</cbc:DespatchAdviceTypeCode>
+  <cbc:Note><![CDATA[la guia de remision tiene que ser llevada obligatoriamente]]></cbc:Note>
+  <cac:AdditionalDocumentReference>
+    <cbc:ID>123-1234-10-123456</cbc:ID>
+    <cbc:DocumentTypeCode listAgencyName="PE:SUNAT" listName="Documento relacionado al transporte" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo61">50</cbc:DocumentTypeCode>
+    <cbc:DocumentType>Declaración Aduanera de Mercancías</cbc:DocumentType>
+    <cac:IssuerParty>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20203058781</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:IssuerParty>
+  </cac:AdditionalDocumentReference>
+  <cac:Signature>
+    <cbc:ID>IDSign20565282965</cbc:ID>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20565282965</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name><![CDATA[INNOVACION TECNOLOGICA CORPORATIVA E.I.R.L.]]></cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#signature20565282965</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <!-- Datos del Remitente -->
+  <cac:DespatchSupplierParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20565282965</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[INNOVACION TECNOLOGICA CORPORATIVA E.I.R.L.]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:DespatchSupplierParty>
+  <!-- Datos del Destinatario -->
+  <cac:DeliveryCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20203058781</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName><![CDATA[SAVIA PERU S.A.]]></cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:DeliveryCustomerParty>
+  <!-- Datos del Proveedor (cuando se ingrese) -->
+  <!-- Datos del envío -->
+  <cac:Shipment>
+    <cbc:ID>SUNAT_Envio</cbc:ID>
+    <!-- codigo de motivo de traslado (codigo generico) -->
+    <cbc:HandlingCode listAgencyName="PE:SUNAT" listName="Motivo de traslado" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo20">08</cbc:HandlingCode>
+    <!-- descripcion de motivo de traslado -->
+    <cbc:HandlingInstructions><![CDATA[Importación]]></cbc:HandlingInstructions>
+    <!-- Peso bruto total de los guía -->
+    <cbc:GrossWeightMeasure unitCode="KGM">212.000</cbc:GrossWeightMeasure>
+    <!-- Número de Bulltos o Pallets (exportacion - importación) -->
+    <cbc:TotalTransportHandlingUnitQuantity>1</cbc:TotalTransportHandlingUnitQuantity>
+    <!-- INDICADORES -->
+	<cbc:SpecialInstructions>SUNAT_Envio_IndicadorTrasladoTotalDAMoDS</cbc:SpecialInstructions>
+    <!-- Transportista (Transporte Público) / sin validacion -->
+    <cac:ShipmentStage>
+      <!-- Modalidad de Traslado -->
+      <cbc:TransportModeCode listName="Modalidad de traslado" listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo18">02</cbc:TransportModeCode>
+      <cac:TransitPeriod>
+        <!-- Fecha Inicio de traslado / Fecha Inicio de traslado -->
+        <cbc:StartDate>2022-10-26</cbc:StartDate>
+      </cac:TransitPeriod>
+      <!-- CONDUCTOR PRINCIPAL -->
+      <cac:DriverPerson>
+        <!-- TIPO Y NUMERO DE DOCUMENTO DE IDENTIDAD -->
+        <cbc:ID schemeID="1" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">43530092</cbc:ID>
+        <!-- NOMBRES -->
+        <cbc:FirstName><![CDATA[DANIEL]]></cbc:FirstName>
+        <!-- APELLIDOS -->
+        <cbc:FamilyName><![CDATA[MEDRANO]]></cbc:FamilyName>
+        <!-- TIPO DE CONDUCTOR: PRINCIPAL -->
+        <cbc:JobTitle>Principal</cbc:JobTitle>
+        <cac:IdentityDocumentReference>
+          <!-- LICENCIA DE CONDUCIR -->
+          <cbc:ID>C43530092</cbc:ID>
+        </cac:IdentityDocumentReference>
+      </cac:DriverPerson>
+    </cac:ShipmentStage>
+    <!-- Direccion punto de llegada -->
+    <cac:Delivery>
+      <!-- DIRECCION DEL PUNTO DE LLEGADA -->
+      <cac:DeliveryAddress>
+        <!-- UBIGEO DE LLEGADA -->
+        <cbc:ID schemeName="Ubigeos" schemeAgencyName="PE:INEI">010108</cbc:ID>
+        <!-- CODIGO DE ESTABLECIMIENTO ANEXO DE LLEGADA -->
+        <!-- DIRECCION COMPLETA Y DETALLADA DE LLEGADA -->
+        <cac:AddressLine>
+          <cbc:Line><![CDATA[Calle Mártir José Olaya 169 Oficina 1006 Torre A Miraflores - Lima]]></cbc:Line>
+        </cac:AddressLine>
+      </cac:DeliveryAddress>
+      <cac:Despatch>
+        <!-- DIRECCION DEL PUNTO DE PARTIDA -->
+        <cac:DespatchAddress>
+          <!-- UBIGEO DE PARTIDA -->
+          <cbc:ID schemeName="Ubigeos" schemeAgencyName="PE:INEI">150141</cbc:ID>
+          <!-- 04 08  -->
+          <!-- CODIGO DE ESTABLECIMIENTO ANEXO DE PARTIDA -->
+		  <cbc:AddressTypeCode listID="20602694802" listAgencyName="PE:SUNAT" listName="Establecimientos anexos">0</cbc:AddressTypeCode>
+          <!-- DIRECCION COMPLETA Y DETALLADA DE PARTIDA -->
+          <cac:AddressLine>
+            <cbc:Line><![CDATA[Calle El Tuma Mz G Lote 18, Chorrillos]]></cbc:Line>
+          </cac:AddressLine>
+        </cac:DespatchAddress>
+      </cac:Despatch>
+    </cac:Delivery>
+    <!-- Vehiculos (Secundarios) -->
+    <cac:TransportHandlingUnit>
+      <cac:TransportEquipment>
+        <!-- VEHICULO PRINCIPAL -->
+        <!-- PLACA - VEHICULO PRINCIPAL -->
+        <cbc:ID>AGV9874</cbc:ID>
+      </cac:TransportEquipment>
+    </cac:TransportHandlingUnit>
+  </cac:Shipment>
+  <!-- BIENES A TRANSPORTAR -->
+  <cac:DespatchLine>
+    <!-- Número de orden del item -->
+    <cbc:ID>1</cbc:ID>
+    <!-- Cantidad del item -->
+    <cbc:DeliveredQuantity unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCode="NIU">1.000</cbc:DeliveredQuantity>
+    <cac:OrderLineReference>
+      <cbc:LineID>1</cbc:LineID>
+    </cac:OrderLineReference>
+    <cac:Item>
+      <!-- Descripcion detallada del ítem -->
+      <cbc:Description><![CDATA[Abono]]></cbc:Description>
+      <cbc:Name><![CDATA[Abono]]></cbc:Name>
+      <cac:SellersItemIdentification>
+        <!-- Código del item -->
+        <cbc:ID>000002</cbc:ID>
+      </cac:SellersItemIdentification>
+      <!-- Código producto SUNAT -->
+    </cac:Item>
+  </cac:DespatchLine>
+</DespatchAdvice>

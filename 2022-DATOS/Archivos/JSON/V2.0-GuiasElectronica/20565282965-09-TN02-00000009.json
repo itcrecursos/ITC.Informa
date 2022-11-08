@@ -10,10 +10,10 @@
   "num_ruc_dest": 20600184718,
   "nom_rzn_soc_dest": "AquaJet Store SAC",
   "cod_tip_nif_dest": 6,
-  "num_ruc_prov": ,
+  "num_ruc_prov": "",
   "nom_rzn_soc_prov": "",
-  "cod_tip_nif_prov": ,
-  "fec_emis": "2022-11-04",
+  "cod_tip_nif_prov": "",
+  "fec_emis": "2022-11-08",
   "hora_emis": "00:00:00",
   "cod_ubi_partida": "010108",
   "cod_establ_partida": "0",
@@ -29,8 +29,8 @@
   "trans_txt_nombre": "TRANSPORTE WILMAN",
   "trans_txt_ruc": "10094877275",
   "trans_cod_tip_nif": "6",
-  "trans_fec_ini": "2022-11-04",
-  "trans_registro_mtc": "LAUR-1092022",
+  "trans_fec_ini": "2022-11-08",
+  "trans_registro_mtc": "LAUR1092022",
   "trans_cod_tip_modalidad": "01",
   "trans_ent_emt_auto": "",
   "trans_num_auto": "",
@@ -47,13 +47,14 @@
   "dato_extra_2": "",
   "dato_extra_3": "",
   "dato_extra_4": "",
+  "vrs_guia": "2.0",
   "documentoRelacionado": [
 		{
 			"ale_doc_rel": 1,
 			"tip_doc_desc_rel": "Declaración Aduanera de Mercancías",
 			"tip_doc_rel": "50",
-			"num_doc_rel": "123-1234-40-123456",
-			"num_emis_doc_rel": "20600184718",
+			"num_doc_rel": "118-2022-10-402400",
+			"num_emis_doc_rel": "20521314720",
 			"tip_emis_doc_rel": "6"
 		}
 	],
@@ -81,7 +82,7 @@
 	  "bnnorm_codigo_concepto": "7022",
 	  "bnnorm_valor": 1,
 	  "damds_codigo_concepto": "7021",
-	  "damds_partida_arancelaria": "123-1234-40-123456"
+	  "damds_partida_arancelaria": "118-2022-10-402400"
     }
   ]
 }
