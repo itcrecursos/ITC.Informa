@@ -47,8 +47,12 @@
   "dato_extra_2": "",
   "dato_extra_3": "",
   "dato_extra_4": "",
-  "ind_cat_m1oL": "SUNAT_Envio_IndicadorTrasladoVehiculoM1L",
   "vrs_guia": "2.0",
+  "indicador": [
+	{
+		"ind_nom": "SUNAT_Envio_IndicadorTrasladoVehiculoM1L"
+	}
+  ],
   "documentoVehiculo": [
 	{
 		"veh_alt": 1,
