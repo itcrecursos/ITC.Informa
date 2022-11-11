@@ -48,6 +48,14 @@
   "dato_extra_3": "",
   "dato_extra_4": "",
   "vrs_guia": "2.0",
+  "indicador": [
+	{
+		"ind_nom": "SUNAT_Envio_IndicadorTransbordoProgramado"
+	},
+	{
+		"ind_nom": "SUNAT_Envio_IndicadorTrasladoTotalDAMoDS"
+	}
+  ],
   "documentoRelacionado": [
 		{
 			"ale_doc_rel": 1,
