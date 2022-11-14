@@ -39,7 +39,7 @@
   "dato_extra_4": "",
   "indicador": [
 	{
-		"ind_nom": "SUNAT_Envio_IndicadorTrasladoVehiculoM1L"
+		"ind_nom": "SUNAT_Envio_IndicadorRetornoVehiculoVacio"
 	}
   ],
   "vrs_guia": "2.0",
