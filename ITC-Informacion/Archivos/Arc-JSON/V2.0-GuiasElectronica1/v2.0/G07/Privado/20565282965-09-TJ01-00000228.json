@@ -22,10 +22,15 @@
   "txt_domicilio_llegada": "Av. Contralmirante Raygada 110, Callao",
   "cod_establ_llegada": "0",
   "num_asoc_llegada": "20203058781",
+<<<<<<< HEAD:ITC-Informacion/Archivos/Arc-JSON/V2.0-GuiasElectronica1/v2.0/G07/Privado/20565282965-09-TJ01-00000228.json
   "cod_ubi_llegada": "070101",
   "trans_fec_ini": "2022-11-17",
   "trans_ent_emt_auto": "",
   "trans_num_auto": "",
+=======
+  "cod_ubi_llegada": "150141",
+  "trans_fec_ini": "2022-11-10",
+>>>>>>> c93bfc9cfafad96d015c52b7356a5d3ee5aaa51d:ITC-Informacion/Archivos/Arc-JSON/V2.0-GuiasElectronica1/v2.0/G07/Privado/20565282965-09-TN01-00000017.json
   "cod_mot_trasalado": "09",
   "cant_bultos_expor": 1,
   "cod_unid_peso_bruto": "KGM",
