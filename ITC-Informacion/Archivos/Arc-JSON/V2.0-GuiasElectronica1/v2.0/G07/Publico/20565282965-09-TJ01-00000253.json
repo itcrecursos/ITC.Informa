@@ -2,7 +2,7 @@
   "identificador": "GR",
   "cod_tip_cpe": "09",
   "txt_serie": "TJ01",
-  "txt_correlativo": "00000228",
+  "txt_correlativo": "00000253",
   "cod_cliente_emis": 1,
   "num_ruc_rem": 20565282965,
   "nom_rzn_soc_rem": "INNOVACION TECNOLOGICA CORPORATIVA E.I.R.L.",
@@ -23,15 +23,22 @@
   "cod_establ_llegada": "0",
   "num_asoc_llegada": "20203058781",
   "cod_ubi_llegada": "070101",
+  "trans_txt_nombre": "TRANSPORTE WILMAN",
+  "trans_txt_ruc": "10094877275",
+  "trans_cod_tip_nif": "6",
   "trans_fec_ini": "2022-11-17",
+  "trans_registro_mtc": "LAUR1092022",
+  "cod_mot_trasalado": "09",
   "trans_ent_emt_auto": "",
   "trans_num_auto": "",
-  "cod_mot_trasalado": "09",
   "cant_bultos_expor": 1,
   "cod_unid_peso_bruto": "KGM",
   "mnt_tot_peso_bruto": 212,
-  "trans_cod_tip_modalidad": "02",
-  "txt_desc_motiv_tras": "EXPORTACION - transporte privado",
+  "txt_sus_bruto_neto": "Sustento efectivo",
+  "numero_contenedor1": "12345678901",
+  "numero_precinto1": "12345678901234567890",
+  "trans_cod_tip_modalidad": "01",
+  "txt_desc_motiv_tras": "EXPORTACION - transporte publico",
   "observaciones": "la guia de remision tiene que ser llevada obligatoriamente",
   "cod_puerto": "CLL",
   "tipo_locacion_puerto": "1",
@@ -54,26 +61,6 @@
 	"indicador": [
 	{
 		"ind_nom": "SUNAT_Envio_IndicadorTrasladoTotalDAMoDS"
-	}
-  ],
-  "documentoVehiculo": [
-	{
-		"veh_alt": 1,
-		"veh_txt_placa": "AGV9875",
-		"veh_tarj_unic_circ": "",
-		"veh_reg_mtc": "",
-		"veh_ent_emt_auto": "MTC",
-		"veh_num_auto": ""
-	}
-  ],
-  "documentoConductor": [
-	{
-		"con_alt": 1,
-		"con_tip_iden": "1",
-		"con_num_iden": "43530092",
-		"con_nombre": "EDWARD",
-		"con_apellido": "LAZO",
-		"con_num_lic": "Q43530092"
 	}
   ],
   "detalles": [
