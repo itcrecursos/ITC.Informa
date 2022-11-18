@@ -32,6 +32,8 @@
   "cant_bultos_expor": 1,
   "cod_unid_peso_bruto": "KGM",
   "mnt_tot_peso_bruto": 212,
+  "cod_unid_peso_neto": "KGM",
+  "mnt_tot_peso_neto": 212,
   "trans_cod_tip_modalidad": "01",
   "txt_desc_motiv_tras": "EXPORTACION - transporte publico",
   "observaciones": "la guia de remision tiene que ser llevada obligatoriamente",
