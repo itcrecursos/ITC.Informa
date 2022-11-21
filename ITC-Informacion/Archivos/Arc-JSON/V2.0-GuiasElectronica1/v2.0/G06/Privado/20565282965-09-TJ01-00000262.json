@@ -1,0 +1,104 @@
+{
+  "identificador": "GR",
+  "cod_tip_cpe": "09",
+  "txt_serie": "TJ01",
+  "txt_correlativo": "00000262",
+  "cod_cliente_emis": 1,
+  "num_ruc_rem": 20565282965,
+  "nom_rzn_soc_rem": "INNOVACION TECNOLOGICA CORPORATIVA E.I.R.L.",
+  "cod_tip_nif_rem": 6,
+  "num_ruc_dest": 20521314720,
+  "nom_rzn_soc_dest": "INVERSIONES FLOTEX S.A.C.",
+  "cod_tip_nif_dest": 6,
+  "num_ruc_prov": "",
+  "nom_rzn_soc_prov": "",
+  "cod_tip_nif_prov": "",
+  "fec_emis": "2022-11-18",
+  "hora_emis": "00:00:00",
+  "cod_ubi_partida": "010108",
+  "cod_establ_partida": "0",
+  "num_asoc_partida": "20112811096",
+  "txt_domicilio_partida": "Calle Mártir José Olaya 169 Oficina 1006 Torre A Miraflores - Lima",
+  "txt_domicilio_llegada": "Calle El Tuma Mz G Lote 18, Chorrillos",
+  "cod_establ_llegada": "0",
+  "num_asoc_llegada": "20203058781",
+  "cod_ubi_llegada": "150141",
+  "trans_fec_ini": "2022-11-18",
+  "cod_mot_trasalado": "08",
+  "cant_bultos_expor": 1,
+  "cod_unid_peso_bruto": "KGM",
+  "mnt_tot_peso_bruto": 212,
+  "trans_cod_tip_modalidad": "02",
+  "txt_desc_motiv_tras": "Importación - transporte privado",
+  "observaciones": "la guia de remision tiene que ser llevada obligatoriamente",
+  "dato_extra_1": "",
+  "dato_extra_2": "",
+  "dato_extra_3": "",
+  "dato_extra_4": "",
+  "vrs_guia": "2.0",
+  "documentoRelacionado": [
+		{
+			"ale_doc_rel": 1,
+			"tip_doc_desc_rel": "Declaración Aduanera de Mercancías",
+			"tip_doc_rel": "50",
+			"num_doc_rel": "118-2022-10-402400",
+			"num_emis_doc_rel": "20513303824",
+			"tip_emis_doc_rel": "6"
+		}
+	],
+  "documentoVehiculo": [
+	{
+		"veh_alt": 1,
+		"veh_txt_placa": "AGV9875",
+		"veh_tarj_unic_circ": "",
+		"veh_reg_mtc": "",
+		"veh_ent_emt_auto": "MTC",
+		"veh_num_auto": ""
+	}
+  ],
+  "documentoConductor": [
+	{
+		"con_alt": 1,
+		"con_tip_iden": "1",
+		"con_num_iden": "43530092",
+		"con_nombre": "EDWARD",
+		"con_apellido": "LAZO",
+		"con_num_lic": "Q43530092"
+	}
+  ],
+  "detalles": [
+    {
+      "num_lin_item": 1,
+      "cod_unid_item": "CAJ",
+      "cant_unid_item": 1,
+      "val_vta_item": 0,
+      "cod_tip_afect_igv_item": 0,
+      "prc_vta_unit_item": 0,
+      "mnt_dscto_item": 0,
+      "mnt_igv_item": 0,
+      "txt_descr_item": "Abono",
+      "cod_prod_sunat": "00000000",
+      "cod_item": "000002",
+      "val_unit_item": 0,
+      "mnt_isc_item": 0,
+      "importe_total_item": 0,
+      "val_unit_icbper": 0,
+      "cant_icbper_item": 0,
+      "mnt_icbper_item": 0,
+      "dato_extra_1": "",
+      "dato_extra_2": "",
+	  "doc_con_trb": [
+		{
+			"CODIGO_CCT": "7021",
+			"DESCRIPCION_CCT": "Numero de declaracion aduanera (DAM)",
+			"VALOR_CCT": "118-2022-10-402400"
+		},
+		{
+			"CODIGO_CCT": "7023",
+			"DESCRIPCION_CCT": "Numero de serie en la DAM o DS",
+			"VALOR_CCT": "2022"
+		}
+	  ]
+    }
+  ]
+}
